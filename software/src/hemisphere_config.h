@@ -167,6 +167,7 @@ AppletRegistry reg{
     DeclareApplet<PolyDiv>{72, 0x06},
     DeclareApplet<ProbabilityDivider>{59, 0x04},
     DeclareApplet<ProbabilityMelody>{62, 0x04},
+    DeclareApplet<ResetClock>{70, 0x14},
     DeclareApplet<SequenceX>{14, 0x02},
     DeclareApplet<Shredder>{58, 0x01},
     DeclareApplet<Strum>{74, 0x08},
@@ -243,7 +244,6 @@ AppletRegistry reg{
     DeclareApplet<EnsOscKey>{35, 0x08},
     DeclareApplet<MultiScale>{73, 0x08},
     DeclareApplet<ScaleDuet>{26, 0x08},
-    DeclareApplet<Squanch>{46, 0x08},
 #endif
 #ifdef APPLETS_MODULATION
     DeclareApplet<ADSREG>{8, 0x01},
